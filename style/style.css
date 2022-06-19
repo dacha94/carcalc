@@ -1,0 +1,130 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+html,
+body {
+    height: 100%;
+    line-height: 160%;
+    font-size: 14px;
+    color: #23262F;
+    background-color: #FFFFFF;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+
+
+.wrapper {
+    /* overflow: hidden; */ 
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+
+.form__deco {
+    grid-area: form__deco;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.form__image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.form__image img{
+    width: 100%;
+}
+
+.form__result {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    margin-top: 30px;
+    min-width: 80%;
+    justify-content: center;
+    padding: 50px 10px 20px 10px;
+    border: solid 4px #201f1b;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.form__buttons {
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.form__buttons_mobile {
+    display: none;
+}
+
+.form__item {
+    position: relative;
+    width: 100%;
+    align-self: flex-start;
+    margin: 0px 0px 24px 0px;
+}
+
+/* оформление */
+.form__title {
+    font-size: 32px;
+    color: #272020;
+    letter-spacing: 0.1em ;
+    line-height: 180%;
+    margin: 0px;
+    padding: 0px 0px 18px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form__select, .form__input {
+    color: #23262F;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 24px 0px 2px 25px;
+    background-color: #FFFFFF;
+    border: solid 1px #403b2f;;
+    border-radius: 8px;
+    transition: all 0.5s ease 0s;
+}
+
+.form__select:focus, .form__input:focus {
+    border: solid 1px #000000;
+}
+
+
+
+/* - Оформление: кнопки ---------------------------- */
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #36629f;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    border-radius: 35px;
+    padding: 13px 30px;
+    min-width: 50px;
+    cursor: pointer;
+    transition: background-color 0.5s ease 0s;
+    box-shadow: 0 2px 0 #455ea83b;
+}
+
+.button:hover {
+    background-color: #9b3232;
+}
+
+.checkbox__label, .radio__label {
+    cursor: pointer;
+}
+
